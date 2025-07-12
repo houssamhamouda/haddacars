@@ -23,7 +23,7 @@ export const Header = () => {
               <Car className="h-5 w-5 text-white" />
             </div>
             <span className="text-xl font-bold bg-gradient-luxury bg-clip-text text-transparent">
-              DragonAuto
+              HaddadAuto
             </span>
           </div>
 

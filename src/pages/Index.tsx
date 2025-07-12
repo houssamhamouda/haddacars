@@ -36,7 +36,7 @@ const Index = () => {
         <div className="relative container mx-auto px-4 text-center">
           <div className="max-w-4xl mx-auto animate-fade-in">
             <Badge className="bg-luxury-gold text-white mb-6 text-sm font-medium">
-              🚗 Premium Chinese Electric Vehicles
+              🚗 Premium Chinese Electric Vehicles to Algeria 
             </Badge>
             <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
               Drive the <span className="bg-gradient-luxury bg-clip-text text-transparent">Future</span>
@@ -96,7 +96,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-luxury bg-clip-text text-transparent">
-              Why Choose DragonAuto?
+              Why Choose HaddadAuto?
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               We're committed to providing the best electric vehicle experience 
@@ -186,10 +186,10 @@ const Index = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-luxury bg-clip-text text-transparent">
-                About DragonAuto
+                About HaddadAuto
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Founded in 2020, DragonAuto is Algeria's premier destination for premium Chinese electric vehicles. 
+                Founded in 2024, HaddadAuto is Algeria's premier destination for premium Chinese electric vehicles. 
                 We specialize in importing and distributing the latest electric cars from renowned Chinese manufacturers 
                 like BYD, Nio, Xpeng, and more.
               </p>
@@ -265,7 +265,7 @@ const Index = () => {
                     <div>
                       <h3 className="font-bold text-lg">Fast Delivery</h3>
                       <p className="text-muted-foreground text-sm">
-                        Quick import and delivery within 30 days
+                        Quick import and delivery within 45 up to 60 days
                       </p>
                     </div>
                   </div>
@@ -288,7 +288,7 @@ const Index = () => {
                 <div className="w-8 h-8 bg-gradient-luxury rounded-lg flex items-center justify-center">
                   <Zap className="h-5 w-5 text-white" />
                 </div>
-                <span className="text-xl font-bold">DragonAuto</span>
+                <span className="text-xl font-bold">HaddadAuto</span>
               </div>
               <p className="text-gray-400 text-sm">
                 Algeria's premier destination for premium Chinese electric vehicles.
@@ -318,16 +318,16 @@ const Index = () => {
             <div>
               <h3 className="font-semibold mb-4">Contact Info</h3>
               <div className="space-y-2 text-sm text-gray-400">
-                <div>123 Boulevard Mohamed V</div>
-                <div>Algiers, Algeria 16000</div>
+                <div>123 Cité million</div>
+                <div>Batna, Algeria 16000</div>
                 <div>+213 21 123 456</div>
-                <div>info@dragonauto.dz</div>
+                <div>info@haddadauto.dz</div>
               </div>
             </div>
           </div>
 
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-sm text-gray-400">
-            <p>&copy; 2024 DragonAuto. All rights reserved. | Premium Chinese Electric Vehicles in Algeria</p>
+            <p>&copy; 2025 Houssam DigitaL-Inc for HaddadAuto. All rights reserved. | Premium Chinese Electric Vehicles in Algeria</p>
           </div>
         </div>
       </footer>

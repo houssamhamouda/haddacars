@@ -173,8 +173,8 @@ export const ContactForm = () => {
                   <div>
                     <h3 className="font-semibold">Visit Our Showroom</h3>
                     <p className="text-muted-foreground">
-                      123 Boulevard Mohamed V<br />
-                      Algiers, Algeria 16000
+                      123 Cité million<br />
+                      Batna, Algeria 05000
                     </p>
                   </div>
                 </div>
@@ -207,8 +207,8 @@ export const ContactForm = () => {
                   <div>
                     <h3 className="font-semibold">Email Us</h3>
                     <p className="text-muted-foreground">
-                      info@dragonauto.dz<br />
-                      sales@dragonauto.dz
+                      info@haddadauto.dz<br />
+                      sales@haddadauto.dz
                     </p>
                   </div>
                 </div>
