@@ -4,6 +4,8 @@ import { ContactForm } from "@/components/ContactForm";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { useTranslation } from "react-i18next";
+import LanguageSwitcher from "../components/LanguageSwitcher";
 import { 
   Zap, 
   Shield, 
@@ -18,6 +20,16 @@ import {
 } from "lucide-react";
 
 const Index = () => {
+const { t } = useTranslation();
+
+  return (
+    <div>
+      <LanguageSwitcher />
+      <h1>{t("title")}</h1>
+      <p>{t("description")}</p>
+    </div>
+  );
+
   const scrollToGallery = () => {
     document.getElementById('gallery')?.scrollIntoView({ behavior: 'smooth' });
   };

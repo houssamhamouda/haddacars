@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr" id="html-root">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,7 +13,11 @@
     <meta property="og:image" content="https://avatars.githubusercontent.com/u/55690868?v=4&size=64" />
 
     <meta name="twitter:card" content="summary_large_image" />
+<<<<<<< HEAD
     <meta name="twitter:site" content="@housssam" />
+=======
+    <meta name="twitter:site" content="housssam" />
+>>>>>>> 840883e (ajout de langues)
     <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/55690868?v=4&size=64" />
   </head>
 
@@ -21,4 +25,11 @@
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
+<script>
+  const html = document.getElementById("html-root");
+  const lang = localStorage.getItem("i18nextLng") || "fr";
+  html.setAttribute("lang", lang);
+  html.setAttribute("dir", lang === "ar" ? "rtl" : "ltr");
+</script>
+
 </html>
